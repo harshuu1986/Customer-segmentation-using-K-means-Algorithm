@@ -21,4 +21,39 @@ The dataset is aquired from kaggle and the link is given below :
 <br>
 <br>
 https://in.docworkspace.com/d/sIHbF-e78Ae-u-LEG
+<br>
+<br>
+The dataset consists of following five features of 850 customers:
+<br>
+<br>
+- CustomerID: Unique ID assigned to the customer.
+<br>
+<br>
+- Age: Divide customers into age.
+<br>
+<br>
+- Income: Process of dividing customers based on their income level.
+<br>
+<br>
+- Card Debt: Debt of the customers.
+<br>
+<br>
+- Debt Income Ratio: Customers are grouped into tiers based on their credit scores.
+<br>
 
+### K-means Algorithm
+-  We specify the number of clusters that we need to create.
+-  The algorithm selects k objects at random from the dataset. This object is the initial cluster or mean.
+-  The closest centroid obtains the assignment of a new observation. We base this assignment on the Euclidean Distance between object and the centroid.
+-  k clusters in the data points update the centroid through calculation of the new mean values present in all the data points of the cluster. The kth cluster’s centroid has a -  -  Length of p that contains means of all variables for observations in the k-th cluster. We denote the number of variables with p.
+-  Iterative minimization of the total within the sum of squares. Then through the iterative minimization of the total sum of the square, the assignment stop wavering when we -  -  Achieve maximum iteration. The default value is 10 that the R software uses for the maximum iterations.
+<br>
+
+### Determining Optimal Clusters
+While working with clusters, you need to specify the number of clusters to use. You would like to utilize the optimal number of clusters. To help you in determining the optimal clusters, there are three popular methods –<br>
+
+-  Elbow method
+The main goal behind cluster partitioning methods like k-means is to define the clusters such that the intra-cluster variation stays minimum.
+<br>
+
+### With the help of clustering, we can understand the variables much better, prompting us to take careful decisions. With the identification of customers, companies can release products and services that target customers based on several parameters like income, age, education, card debt, address, debt income ratio etc.
